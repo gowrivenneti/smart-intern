@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .inline{
+            border: 2px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            background-color: rgb(232, 215, 194);
+        }
+        #internal{
+            border: 2px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            background-color: rgb(230, 232, 194);
+        }
+    </style>
+</head>
+<body>
+        <p style="color: brown; background-color: rgb(235, 194, 194); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;">Welcome to CSS</p>
+        <p style="background-color: antiquewhite;">There are three ways to add css in html file</p>
+        <ol>
+            <li style="color: rgb(107, 193, 193); font-size: large; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Inline CSS</li>
+            <li style="color: rgb(107, 193, 193); font-size: large; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Internal CSS</li>
+            <li style="color: rgb(107, 193, 193); font-size: large; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >External CSS</li>
+        </ol>
+        <div class="inline">
+        <h4>Inline CSS</h4>
+        <p>We can add css by using style attribute within in the html tags</p>
+        </div>
+        <div id="internal">
+            <h4>Internal CSS</h4>
+            <p>We can write css inside the style tag. It is only used for single Page</p>
+        </div>
+        <div class="external">
+            <h4>External CSS</h4>
+            <p>Styles are written in external .css file and is linked to html file. It is reusable</p>
+        </div>
+        <div class="selector"> 
+            <h3>CSS SELECTORS</h3>
+            <ol>
+                <li>Universal (*)</li>
+                <li>Element (tags)</li>
+                <li>Class (.)</li>
+                <li>ID (#)</li>
+            </ol>
+        </div>
+</body>
+</html>

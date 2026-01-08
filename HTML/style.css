@@ -1,0 +1,13 @@
+.external{
+    border: 2px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            background-color: rgb(194, 232, 230);
+}
+.selector{
+    padding: 5px;
+    border: 2px solid black;
+    font-family:cursive;
+    background-color: rgb(230, 194, 232);
+    
+}

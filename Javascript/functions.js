@@ -20,3 +20,9 @@ let greet3 = (name) => {
 greet("gowri");
 greet2("venkat");
 greet3("sneha");
+
+//template literals -- it is a way to embed expressions in a string using backticks and ${} syntax.
+//modern way to design strings in javascript
+let name = "Gowri";
+let age = 20;
+console.log(`My name is ${name} and I am ${age} years old.`);

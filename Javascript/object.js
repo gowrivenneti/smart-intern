@@ -47,3 +47,16 @@ console.log(Object.freeze(person2)); //Freezes the object, preventing any change
 
 const person3=Object.create(person2); //Creates a new object with the specified prototype
 console.log(person3.name);
+
+//Object destructuring
+const {name, age} = person2;
+console.log(name);
+console.log(age);
+
+//array of objects
+let people = [
+    {name: "Alice", age: 25},
+    {name: "Bob", age: 30},
+    {name: "Charlie", age: 35}
+];
+console.log(people[0].name);

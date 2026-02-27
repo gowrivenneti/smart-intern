@@ -1,0 +1,88 @@
+.main{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1,h2{
+     margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #181717;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 280px;
+    padding: 5px;
+    margin-left: 15px;
+    border: 1px solid #181717;
+    border-radius: 5px;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid #181717;
+    border-radius: 5px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 60px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid #181717;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #c6c6c6;
+}
+@media screen and (max-width: 600px) {
+    .hero {
+        width: 100%;
+        flex-direction: column;
+        gap: 5px;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+}
+.taskList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    height: auto;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 5px;   
+    
+    border-radius: 5px;
+
+}

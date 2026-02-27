@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Smart Task Management System</h1>
+        <h2>Manage Your Tasks Efficiently</h2>
+        <div class="input">
+            <input type="text" id="taskInput" placeholder="Enter a new task" required><br>
+            <button id="addTaskButton">Add Task</button>
+        </div>
+        <h2>Task Status</h2>
+        <div class="filter">
+            <button id="filterAll">All</button>
+            <button id="filterCompleted">Completed</button>
+            <button id="filterPending">Pending</button>
+        </div>
+        <h2>Task List</h2>
+        
+        <div class="taskList" id="taskList">
+            <!-- Tasks will be dynamically added here -->
+        </div>
+            <h2>Task Summary</h2>
+             <div class="hero"> 
+                <p>Total Tasks: <span id="totalTasks">0</span></p>
+                <p>Completed Tasks: <span id="completedTasks">0</span></p>
+                <p>Pending Tasks: <span id="pendingTasks">0</span></p>
+            </div>
+            <footer>
+                <p>&copy; 2024 Smart Task Management System. All rights reserved.</p>   
+            </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
